@@ -20,5 +20,15 @@ public class ConsoleExercises {
         System.out.println("How are you feeling?");
         String sentence = input.nextLine();
         System.out.println("sentence = " + sentence);
+
+        System.out.println("Give me a width: ");
+        float width = Float.parseFloat(input.nextLine());
+        System.out.println("Give me a length: ");
+        float length = Float.parseFloat(input.nextLine());
+        float area = width * length;
+        float perimeter = (width * 2) + (length * 2 );
+        System.out.println("Perimeter : " + perimeter);
+        System.out.println("area : " + area);
+
     }
 }
