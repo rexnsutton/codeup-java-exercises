@@ -53,14 +53,14 @@ public class ControlFlowExercises {
 //            String userInput = scanner.next();
 //            if(userInput.equalsIgnoreCase("y")){
 //                userContinues = false;
-            }
+
 //        System.out.println("confirmation = " + confirmation);
 //        scan.close();
 
 //        }while (userContinues);
 
 
-
+}
 
     }
 
