@@ -6,13 +6,14 @@ public class Bob {
         String userInput = scanner.nextLine();
         System.out.println("You entered: " + userInput);
         if (userInput.endsWith("?")){
-            System.out.println("Sure");
+            System.out.println("BOB SAID" +
+                    ": " + "Sure");
         } else if (userInput.endsWith("!")){
-            System.out.println("Whoa, Chill Out");
+            System.out.println("BOB SAID: " + "Whoa, Chill Out");
         } else if (userInput.equalsIgnoreCase("")){
-            System.out.println("Fine. Be that way.");
+            System.out.println("BOB SAID: " + "Fine. Be that way.");
         } else {
-            System.out.println("Whatever");
+            System.out.println("BOB SAID: " + "Whatever");
         }
 
 
