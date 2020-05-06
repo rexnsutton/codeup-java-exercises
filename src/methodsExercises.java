@@ -8,6 +8,7 @@ public class methodsExercises {
         System.out.println(5 == Division (10,2));
         System.out.println(2 == modulus(5,2));
         getInteger(1,10);
+        factorial();
     }
 
     public static double sum (double arg1, double arg2){
@@ -41,6 +42,18 @@ public class methodsExercises {
                return userInput;
            }
 
+    }
+
+    public static void factorial(){
+        int userInput = getInteger(1,10);
+        int sum = 1;
+        for (int fa = userInput; fa > 0; fa--){
+            sum *= fa;
+            System.out.println("Factorial of " + userInput + " = " + sum);
+
+
+
+        }
     }
 
 }
