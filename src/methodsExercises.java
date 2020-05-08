@@ -34,8 +34,6 @@ public class methodsExercises {
     }
 
     public static int getInteger(int min, int max) {
-
-
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a number between 1 and 10: ");
 
