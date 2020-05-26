@@ -1,5 +1,7 @@
 package grades;
 
+import util.Input;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -30,9 +32,15 @@ public class GradesApplication {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Here are the GitHub usernames of our students: ");
         System.out.println(student.keySet());
+        Input input = new Input();
+        for (String key : student.keySet()){
+
+
+        }
+
         System.out.println("What student would you like to see more information on?: ");
 
-
+String userInput = input.getString();
 
 
     }
