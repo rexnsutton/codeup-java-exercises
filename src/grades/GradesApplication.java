@@ -24,7 +24,7 @@ public class GradesApplication {
         dave.addGrade(85);
         dave.addGrade(77);
         dave.addGrade(88);
-        HashMap <String, Student> student = new HashMap();
+        HashMap<String, Student> student = new HashMap();
         student.put("Rexnsutton", rex);
         student.put("JackDaniels", jack);
         student.put("JohnDoe", john);
@@ -33,15 +33,16 @@ public class GradesApplication {
         System.out.println("Here are the GitHub usernames of our students: ");
         System.out.println(student.keySet());
         Input input = new Input();
-        for (String key : student.keySet()){
+        for (String key : student.keySet()) {
 
 
         }
 
         System.out.println("What student would you like to see more information on?: ");
 
-String userInput = input.getString();
-
-
+//String userInput = input.getString();
+//
+//
+//    }
     }
 }
